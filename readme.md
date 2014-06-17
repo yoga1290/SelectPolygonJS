@@ -1,4 +1,4 @@
-#	SelectPolygon
+#	SelectPolygon.JS
 ----
 
 +	[SelectPolygon.js](js/SelectPolygon.js) file
