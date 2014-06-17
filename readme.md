@@ -3,7 +3,7 @@
 
 +	[SelectPolygon.js](js/SelectPolygon.js) file
 +	Online example: [yogash1290.appspot.com/SelectPolygon/](http://yogash1290.appspot.com/SelectPolygon/index.html)
-+	download [example](example.zip)
++	download [example](https://github.com/yoga1290/SelectPolygonJS/blob/master/example.zip)
 
 ----
 ##	Motivation:
