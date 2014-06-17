@@ -1,6 +1,11 @@
 #	SelectPolygon
 ----
 
++	[SelectPolygon.js](js/SelectPolygon.js) file
++	Online example: [yogash1290.appspot.com/SelectPolygon/](http://yogash1290.appspot.com/SelectPolygon/index.html)
++	download [example](example.zip)
+
+----
 ##	Motivation:
 ----
 
