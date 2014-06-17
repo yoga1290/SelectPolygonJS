@@ -7,7 +7,7 @@
 I was working making a selectable map of Egypt where people can select their city.
 You can't treat cities as seperate images and assign onClick handler per each, as images overlaps:
 
-![readme.png](readme.png)
+![readme.png](readme/readme.png)
 -----
 
 
@@ -22,7 +22,7 @@ You can't treat cities as seperate images and assign onClick handler per each, a
 
 
 -----
-+	Add a canvas to your page with an **id** , **width**, ***height** attributes:
++	Add a canvas to your page with an **id** , **width**, **height** attributes:
 
 ```html
 	<canvas id="MapOfEgypt" width="1000" height="1000"></canvas>
