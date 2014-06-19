@@ -61,6 +61,7 @@ var SelectPolygon=function(canvasId,imgArray){
 				var click=function(event){
 					if(!isCanvasReady) return;
 					if(callbackFn!==null && callbackFn!==undefined)
+					if(Map[event.offsetX][event.offsetY]>-1)
 					callbackFn(event,
 						Map[event.offsetX][event.offsetY]
 						);
@@ -72,6 +73,7 @@ var SelectPolygon=function(canvasId,imgArray){
 				var dbclick=function(event){
 					if(!isCanvasReady) return;
 					if(callbackFn!==null && callbackFn!==undefined)
+					if(Map[event.offsetX][event.offsetY]>-1)
 					callbackFn(event,
 						Map[event.offsetX][event.offsetY]
 						);
@@ -83,6 +85,7 @@ var SelectPolygon=function(canvasId,imgArray){
 				var mousedown=function(event){
 					if(!isCanvasReady) return;
 					if(callbackFn!==null && callbackFn!==undefined)
+					if(Map[event.offsetX][event.offsetY]>-1)
 					callbackFn(event,
 						Map[event.offsetX][event.offsetY]
 						);
@@ -94,6 +97,7 @@ var SelectPolygon=function(canvasId,imgArray){
 				var mousemove=function(event){
 					if(!isCanvasReady) return;
 					if(callbackFn!==null && callbackFn!==undefined)
+					if(Map[event.offsetX][event.offsetY]>-1)
 					callbackFn(event,
 						Map[event.offsetX][event.offsetY]
 						);
@@ -105,6 +109,7 @@ var SelectPolygon=function(canvasId,imgArray){
 				var mouseover=function(event){
 					if(!isCanvasReady) return;
 					if(callbackFn!==null && callbackFn!==undefined)
+					if(Map[event.offsetX][event.offsetY]>-1)
 					callbackFn(event,
 						Map[event.offsetX][event.offsetY]
 						);
@@ -116,6 +121,7 @@ var SelectPolygon=function(canvasId,imgArray){
 				var mouseout=function(event){
 					if(!isCanvasReady) return;
 					if(callbackFn!==null && callbackFn!==undefined)
+					if(Map[event.offsetX][event.offsetY]>-1)
 					callbackFn(event,
 						Map[event.offsetX][event.offsetY]
 						);
@@ -127,6 +133,7 @@ var SelectPolygon=function(canvasId,imgArray){
 				var mouseup=function(event){
 					if(!isCanvasReady) return;
 					if(callbackFn!==null && callbackFn!==undefined)
+					if(Map[event.offsetX][event.offsetY]>-1)
 					callbackFn(event,
 						Map[event.offsetX][event.offsetY]
 						);
