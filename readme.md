@@ -34,7 +34,7 @@ You can't treat cities as seperate images and assign onClick handler per each, a
 ```
 
 -----
-+	Make an array of object, with **src**, **x** and **y** hooks indicating the image source URL and XY position to be drawn in the canvas:
++	Make an array of objects, with **src**, **x** and **y** hooks indicating the image source URL and XY position to be drawn in the canvas:
 
 ```javascript
 	var imgArray=[
